@@ -1,0 +1,168 @@
+SQL> spool output_file.txt APPEND
+
+LASTNAME   FIRSTNAME  ST
+---------- ---------- --
+SMITH      JENNIFER   NJ
+FALAH      KENNETH    NJ
+
+
+    ORDER# SHIPDATE 
+---------- ---------
+      1000 02-APR-09
+      1004 05-APR-09
+      1005 02-APR-09
+      1006 02-APR-09
+      1007 04-APR-09
+      1008 03-APR-09
+      1009 05-APR-09
+      1010 04-APR-09
+      1011 05-APR-09
+      1013 04-APR-09
+      1014 05-APR-09
+      1017 05-APR-09
+
+12 rows selected. 
+
+
+TITLE                          CATEGORY    
+------------------------------ ------------
+REVENGE OF MICKEY              FAMILY LIFE 
+BUILDING A CAR WITH TOOTHPICKS CHILDREN    
+DATABASE IMPLEMENTATION        COMPUTER    
+COOKING WITH MUSHROOMS         COOKING     
+HOLY GRAIL OF ORACLE           COMPUTER    
+HANDCRANKED COMPUTERS          COMPUTER    
+E-BUSINESS THE EASY WAY        COMPUTER    
+PAINLESS CHILD-REARING         FAMILY LIFE 
+THE WOK WAY TO COOK            COOKING     
+BIG BEAR AND LITTLE DOVE       CHILDREN    
+HOW TO GET FASTER PIZZA        SELF HELP   
+HOW TO MANAGE THE MANAGER      BUSINESS    
+SHORTEST POEMS                 LITERATURE  
+
+13 rows selected. 
+
+
+ CUSTOMER# LASTNAME   ST
+---------- ---------- --
+      1010 LUCAS      GA
+      1018 MONTIASA   GA
+      1019 SMITH      NJ
+      1020 FALAH      NJ
+
+
+ CUSTOMER# LASTNAME   ST
+---------- ---------- --
+      1010 LUCAS      GA
+      1018 MONTIASA   GA
+      1019 SMITH      NJ
+      1020 FALAH      NJ
+
+
+    ORDER# ORDERDATE
+---------- ---------
+      1000 31-MAR-09
+      1001 31-MAR-09
+      1002 31-MAR-09
+      1003 01-APR-09
+      1004 01-APR-09
+      1005 01-APR-09
+      1006 01-APR-09
+
+7 rows selected. 
+
+
+    ORDER# ORDERDATE
+---------- ---------
+      1000 31-MAR-09
+      1001 31-MAR-09
+      1002 31-MAR-09
+      1003 01-APR-09
+      1004 01-APR-09
+      1005 01-APR-09
+      1006 01-APR-09
+
+7 rows selected. 
+
+
+LNAME      FNAME     
+---------- ----------
+AUSTIN     JAMES     
+MARTINEZ   SHEILA    
+ROBINSON   ROBERT    
+WILKINSON  ANTHONY   
+
+
+LASTNAME   FIRSTNAME    REFERRED
+---------- ---------- ----------
+GIANA      TAMMY            1003
+PEREZ      JORGE            1003
+NGUYEN     NICHOLAS         1006
+DAUM       MICHELL          1010
+SMITH      JENNIFER         1003
+
+
+TITLE                          CATEGORY    
+------------------------------ ------------
+BUILDING A CAR WITH TOOTHPICKS CHILDREN    
+COOKING WITH MUSHROOMS         COOKING     
+THE WOK WAY TO COOK            COOKING     
+BIG BEAR AND LITTLE DOVE       CHILDREN    
+
+
+TITLE                          CATEGORY    
+------------------------------ ------------
+BUILDING A CAR WITH TOOTHPICKS CHILDREN    
+COOKING WITH MUSHROOMS         COOKING     
+THE WOK WAY TO COOK            COOKING     
+BIG BEAR AND LITTLE DOVE       CHILDREN    
+
+
+TITLE                          CATEGORY    
+------------------------------ ------------
+BUILDING A CAR WITH TOOTHPICKS CHILDREN    
+COOKING WITH MUSHROOMS         COOKING     
+THE WOK WAY TO COOK            COOKING     
+BIG BEAR AND LITTLE DOVE       CHILDREN    
+
+
+ISBN       TITLE                         
+---------- ------------------------------
+2491748320 PAINLESS CHILD-REARING        
+
+
+TITLE                          PUBDATE  
+------------------------------ ---------
+BODYBUILD IN 10 MINUTES A DAY  21-JAN-05
+REVENGE OF MICKEY              14-DEC-05
+HOLY GRAIL OF ORACLE           31-DEC-05
+HANDCRANKED COMPUTERS          21-JAN-05
+BIG BEAR AND LITTLE DOVE       08-NOV-05
+SHORTEST POEMS                 01-MAY-05
+
+6 rows selected. 
+
+
+TITLE                          PUBDATE  
+------------------------------ ---------
+BODYBUILD IN 10 MINUTES A DAY  21-JAN-05
+REVENGE OF MICKEY              14-DEC-05
+HOLY GRAIL OF ORACLE           31-DEC-05
+HANDCRANKED COMPUTERS          21-JAN-05
+BIG BEAR AND LITTLE DOVE       08-NOV-05
+SHORTEST POEMS                 01-MAY-05
+
+6 rows selected. 
+
+
+TITLE                          PUBDATE  
+------------------------------ ---------
+BODYBUILD IN 10 MINUTES A DAY  21-JAN-05
+REVENGE OF MICKEY              14-DEC-05
+HOLY GRAIL OF ORACLE           31-DEC-05
+HANDCRANKED COMPUTERS          21-JAN-05
+BIG BEAR AND LITTLE DOVE       08-NOV-05
+SHORTEST POEMS                 01-MAY-05
+
+6 rows selected. 
+
